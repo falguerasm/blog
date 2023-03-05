@@ -1,0 +1,98 @@
+body, html {
+    margin: 0;
+    height: 100%;
+    background-color: #101010;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #f2f2f2;
+}
+
+h1{
+    font-size: 32px;
+    font-weight: 700;
+}
+p{
+    font-size: 16px;
+}
+/*MENU*/
+header{
+    width: 100%;
+    padding: 24px 0px;
+    background-color: #101010;
+    /*position: fixed;*/
+}
+.home{
+    padding: 0px 24px;
+}
+.menu{
+    float: right;
+    padding: 0px 12px;
+}
+.list{
+    margin: 0;
+    list-style-type: none;
+    padding: 0;
+}
+li {
+    display: inline-block;
+    padding: 0px 12px;
+}
+
+/*LINKS*/
+a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #f2f2f2;
+}
+a:hover {
+    text-decoration: underline;
+}
+
+/*Article*/
+.ludovicbalay{
+    width: auto;
+    height: auto;
+    margin: 0px;
+    padding: 0px 24px;
+}
+.img{
+    height: auto;
+    width: 50%;
+}
+.text{
+    height: auto;
+    width: 50%;
+    float: right;
+    margin-top: -150px;
+}
+button{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 700;
+    color: #101010;
+
+    padding: 12px;
+}
+
+/*FOOTER*/
+footer{
+    width: 100%;
+    padding: 24px 0px;
+    background-color: #101010;
+}
+.home{
+    padding: 0px 24px;
+}
+.menu{
+    float: right;
+    padding: 0px 12px;
+}
+.list{
+    margin: 0;
+    list-style-type: none;
+    padding: 0;
+}
+li {
+    display: inline-block;
+    padding: 0px 12px;
+}
