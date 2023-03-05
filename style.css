@@ -5,14 +5,15 @@ body, html {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: #f2f2f2;
 }
-
 h1{
     font-size: 32px;
     font-weight: 700;
 }
 p{
     font-size: 16px;
+    font-weight: 400;
 }
+
 /*MENU*/
 header{
     width: 100%;
@@ -41,6 +42,7 @@ li {
 a{
     text-decoration: none;
     text-transform: uppercase;
+    font-size: 12px;
     color: #f2f2f2;
 }
 a:hover {
@@ -48,7 +50,7 @@ a:hover {
 }
 
 /*Article*/
-.ludovicbalay{
+.main-card{
     width: auto;
     height: auto;
     margin: 0px;
@@ -58,20 +60,11 @@ a:hover {
     height: auto;
     width: 50%;
 }
-.text{
+.info{
     height: auto;
     width: 50%;
     float: right;
     margin-top: -150px;
-}
-button{
-    text-decoration: none;
-    text-transform: uppercase;
-    font-size: 12px;
-    font-weight: 700;
-    color: #101010;
-
-    padding: 12px;
 }
 
 /*FOOTER*/
@@ -80,11 +73,8 @@ footer{
     padding: 24px 0px;
     background-color: #101010;
 }
-.home{
-    padding: 0px 24px;
-}
+/*
 .menu{
-    float: right;
     padding: 0px 12px;
 }
 .list{
@@ -95,4 +85,25 @@ footer{
 li {
     display: inline-block;
     padding: 0px 12px;
+}*/
+
+/*POST*/
+.carrusel {
+    margin: 0 auto;
+    height: 700px;
+    padding: 24px;
+}
+.title{
+    width: 100%;
+    text-align: center;
+}
+.coverimg{
+    width: 100%;
+}
+
+.text{
+    margin: 0 auto;
+    width: 900px;
+    height: auto;
+    padding: 24px;
 }
