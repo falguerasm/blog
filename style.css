@@ -125,11 +125,15 @@ footer{
     display: inline-block;
     padding: 24px 0px;
 }
+.content{
+    height: auto;
+    padding: 24px;
+    display: flex;
+}
 .text{
     margin: 0 auto;
     width: 900px;
-    height: auto;
-    padding: 24px;
+    float: right;
 }
 .gallery{   
     padding: 24px;
@@ -138,4 +142,9 @@ footer{
 }
 .imgallery{
     width: 25%;
+}
+
+.aside{
+    float: left;
+    width: 200px;
 }
