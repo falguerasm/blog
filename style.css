@@ -71,6 +71,17 @@ li {
     padding: 0px 12px;
 }
 
+/*FOOTER*/
+footer{
+    width: 100%;
+    padding: 24px;
+    background-color: #101010;
+}
+.menufooter{
+    float: right;
+    position: relative;
+}
+
 /*Article*/
 .maintitle{
     width: 100%;
@@ -101,19 +112,6 @@ li {
     border: 1px solid #676767;
     text-align: center;
     padding: 8px;
-}
-
-/*FOOTER*/
-footer{
-    width: 100%;
-    padding: 24px;
-    background-color: #101010;
-}
-.menufooter{
-    float: right;
-    padding: 0px;
-    position: relative;
-    top: -40px;
 }
 
 /*POST LUDOVIC BALAY*/
