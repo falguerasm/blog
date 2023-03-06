@@ -131,8 +131,7 @@ footer{
     display: flex;
 }
 .text{
-    margin: 0 auto;
-    width: 900px;
+    width: 75%;
     float: right;
 }
 .gallery{   
@@ -146,5 +145,5 @@ footer{
 
 .aside{
     float: left;
-    width: 200px;
+    width: 25%;
 }
